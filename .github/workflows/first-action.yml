@@ -1,0 +1,10 @@
+name: First Workflow
+on: workflow_dispatch # manual start
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "dzień dobry"
+      - name: Print goodbye
+        run: echo "Do widzenia"
